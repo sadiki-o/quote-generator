@@ -1,0 +1,50 @@
+*{
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+#quote{
+    margin-top: 20vh;
+    padding: 50px 0;
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#quote .ins{
+    color: #37323E;
+    font-size: 1.5rem;
+    max-width: 70%;
+    min-height: 100px;
+    border: 2px solid #8d8995;
+    padding: 20px;
+    text-align: center;
+    background-color: #D1D5DE;
+}
+#quote .ins cite{
+    margin-top: 10px;
+    color: rgb(88, 82, 83);
+    display: block;
+    font-size: 15px;
+    text-align: end;
+}
+#quote .choice{
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1.5px solid #403c48;
+    background-color: #6179e2;
+}
+#quote .choice:hover{
+    cursor: pointer;
+    color: #110f10;
+    background-color: #b57ec3;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
